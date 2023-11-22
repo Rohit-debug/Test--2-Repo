@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myaddressbook
+spec:
+  containers:
+  - name: myabcontainer
+    image: jsachdev07/addressbook:latest
